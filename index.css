@@ -1,0 +1,32 @@
+@media (prefers-reduced-motion: no-preference){
+      
+        html{
+        
+        scroll-behavior: smooth; /* css que dita que o scrolamento sera feito de forma visual, com a barra lateral descendo normalmente e não de forma abrupta como num piscar de olhos*/
+        
+        }
+}
+
+:target{ /*estilizar elementos que receberam foco através de um fragmento de URL lá no HTML ('a' referenciado com #)*/
+    
+    background-color: #c4791d;
+    scroll-margin-top: .8em; /*css que permite que o scrolamento seja feito corretamente sem erros*/
+    }
+
+
+      body{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+      }
+      
+    .principal{
+
+     display: flex;
+     flex-direction: column;
+     gap: 90px;
+
+    }
